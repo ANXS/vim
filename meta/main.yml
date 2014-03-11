@@ -1,0 +1,15 @@
+# file: vim/meta/main.yml
+
+galaxy_info:
+  author: pjan vandaele
+  description: Installing vim-nox as the default vim
+  min_ansible_version: 1.2
+  license: MIT
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+  - development
+
+dependencies: []
