@@ -5,7 +5,14 @@
     pkg: vim-tiny
     state: absent
 
-- name: Vim | Make sure vim-nox is installed
+- name: Vim | Make sure your favourite vim flavour is installed
   apt:
-    pkg: vim-nox
+    pkg: "{{vim_base}}"
     state: present
+
+- name: Vim | Install additional vim packages
+  apt:
+    pkg: "{{item}}"
+    state: present
+  with_items: vim_extras
+  when: vim_extras|length > 0

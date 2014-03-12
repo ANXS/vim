@@ -1,6 +1,16 @@
 ## Ansibles - vim [![Build Status](https://travis-ci.org/Ansibles/vim.png)](https://travis-ci.org/Ansibles/vim)
 
-Ansible role for vim
+Ansible role that installs your favourite flavour of vim.
+
+#### Requirements & Dependencies
+- Tested on Ansible 1.3 and higher
+
+#### Variables
+
+```yaml
+vim_base: "vim-nox"     # package name of your favourite vim flavour
+vim_extras: []          # list of vim extras
+```
 
 #### License
 

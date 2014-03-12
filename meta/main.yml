@@ -2,8 +2,8 @@
 
 galaxy_info:
   author: pjan vandaele
-  description: Installing vim-nox as the default vim
-  min_ansible_version: 1.2
+  description: Installs your favourite flavour of vim
+  min_ansible_version: 1.3
   license: MIT
   platforms:
   - name: Ubuntu
