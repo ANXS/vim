@@ -1,4 +1,4 @@
 # file: vim/defaults/main.yml
 
-vim_base: "vim-nox"
-vim_extras: []
+vim_base: "vim-nox"     # package name of your favourite vim flavour
+vim_extras: []          # list of vim extras
