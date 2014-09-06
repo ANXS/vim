@@ -1,4 +1,4 @@
-## Ansibles - vim [![Build Status](https://travis-ci.org/Ansibles/vim.png)](https://travis-ci.org/Ansibles/vim)
+## ANXS - vim [![Build Status](https://travis-ci.org/ANXS/vim.png)](https://travis-ci.org/ANXS/vim)
 
 Ansible role that installs your favourite flavour of vim.
 
@@ -18,4 +18,4 @@ Licensed under the MIT License. See the LICENSE file for details.
 
 #### Feedback, bug-reports, requests, ...
 
-Are [welcome](https://github.com/ansibles/vim/issues)!
+Are [welcome](https://github.com/ANXS/vim/issues)!
